@@ -46,7 +46,8 @@ smart-pill-box/
 └── README.md
 
 ## 📸 Output / Setup
-(Add your project image here)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/daf0ecb4-01ca-4e51-a596-cbb5dfb68c27" />
+
 
 ## 🔮 Future Scope
 - 📱 Mobile app integration  
