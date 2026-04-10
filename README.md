@@ -46,6 +46,8 @@ smart-pill-box/
 └── README.md
 
 ## 📸 Output / Setup
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/75be6e9c-d588-4b6b-97f9-94bbd38b05f8" />
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/daf0ecb4-01ca-4e51-a596-cbb5dfb68c27" />
 
 
