@@ -1,28 +1,62 @@
-# Embedded Smart Pill Box with Missed-Dose Alert
+# 💊 Embedded Smart Pill Box with Missed-Dose Alert
 
-## Overview
-This project helps users take medication on time using an Arduino-based system with reminders and detection.
+## 📌 Overview
+The Embedded Smart Pill Box is an Arduino-based healthcare device designed to help users take their medication on time and avoid missed doses. It provides real-time reminders and verifies whether the medicine has been taken using sensor-based detection.
 
-## Features
-- Time-based alerts (RTC)
-- Buzzer and LED notifications
-- LCD display
-- Touch sensor interaction
-- Servo-based box opening
-- IR sensor for dose detection
+## 🚀 Features
+- ⏰ Time-based reminders using RTC module  
+- 🔔 Buzzer alerts and LED indication  
+- 📟 LCD display for real-time information  
+- 👆 Touch sensor for user interaction  
+- ⚙️ Servo motor for automatic box opening  
+- 📡 IR sensor for medicine intake detection  
+- ⚠️ Missed-dose detection system  
 
-## Components Used
-- Arduino Uno
-- RTC Module
-- IR Sensor
-- Touch Sensor
-- Servo Motor
-- LCD Display
-- Buzzer & LED
+## 🛠️ Components Used
+- Arduino Uno  
+- RTC Module (DS3231)  
+- IR Sensor  
+- Touch Sensor  
+- Servo Motor (SG90)  
+- 16x2 LCD Display (I2C)  
+- Buzzer  
+- LED  
+- Jumper Wires & Breadboard  
 
-## How it Works
-The system reminds users at specific times and detects whether medicine is taken using sensors.
+## ⚙️ Working Principle
+1. RTC module tracks real-time medication schedule  
+2. At set times, buzzer and LED alert the user  
+3. LCD displays the corresponding dose (Morning/Afternoon/Night)  
+4. User touches the sensor → servo opens pill compartment  
+5. IR sensor detects pill removal  
+6. System confirms whether medicine is taken or missed  
 
-## Author
-Glen Clitus Manjooran (URK24CS1037)
-Bertil Anto I (URK24CS1002)
+## 📂 Project Structure
+smart-pill-box/
+│
+├── code/
+│   └── smart_pill_box.ino
+│
+├── images/
+│   └── setup.jpg
+│
+├── report/
+│   └── documentation.pdf
+│
+└── README.md
+
+## 📸 Output / Setup
+(Add your project image here)
+
+## 🔮 Future Scope
+- 📱 Mobile app integration  
+- 🌐 IoT-based monitoring  
+- 🔔 SMS alerts for caregivers  
+- 🗂️ Data logging for medical tracking  
+
+## 👨‍💻 Authors
+- Glen Clitus Manjooran  
+- Bertil Anto I  
+
+## ⭐ Note
+This project demonstrates how embedded systems and sensor technologies can be used to improve healthcare and medication adherence.
