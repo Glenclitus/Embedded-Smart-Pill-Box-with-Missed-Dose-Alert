@@ -24,4 +24,5 @@ This project helps users take medication on time using an Arduino-based system w
 The system reminds users at specific times and detects whether medicine is taken using sensors.
 
 ## Author
-Glen Clitus Manjooran
+Glen Clitus Manjooran (URK24CS1037)
+Bertil Anto I (URK24CS1002)
